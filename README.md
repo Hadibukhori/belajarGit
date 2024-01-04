@@ -15,3 +15,11 @@ Git checkout -b 'nama branch' : untuk membuat branch
 Git push --set-upstream origin 'nama branch' : untuk push branch baru ke github
 
 Git checkout main : untuk kembali ke main github
+
+Create New Repo
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Hadibukhori/dwqd.git
+git push -u origin main
